@@ -1,0 +1,19 @@
+.elem {
+  display: inline-block;
+  font-size: 11px;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #0c121c;
+  text-transform: uppercase;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  margin-right: 30px;
+  padding: 3px 0 2px 0;
+  cursor: pointer;
+  opacity: 1;
+}
+ .elem:hover {
+  opacity: 0.8;
+}
+ .active {
+  border-bottom: 1px solid #0c121c;
+}

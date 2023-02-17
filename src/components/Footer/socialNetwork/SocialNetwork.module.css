@@ -1,0 +1,30 @@
+.block {
+  width: 25%;
+  padding: 46px 20px 22px;
+  position: relative;
+}
+
+.title {
+  font-size: 9px;
+  line-height: 1;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #fff;
+  margin-bottom: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+}
+
+.linkVK,
+.linkFaceboock {
+  width: 52px;
+  height: 52px;
+  top: 0;
+  right: 100px;
+  position: absolute;
+  z-index: 10;
+  outline: 1px solid red;
+}
+.linkFaceboock{
+  top: 100px;
+  right: 200px;
+}

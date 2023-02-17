@@ -1,0 +1,49 @@
+.card {
+  width: 25%;
+  height: auto;
+  padding: 48px 20px 40px 40px;
+  cursor: pointer;
+}
+
+.card:not(:last-child) {
+  border-right: 1px dotted #d8d8d8;
+}
+
+.linkContiner {
+  display: flex;
+  align-items: center;
+  margin-left: -4px;
+  margin-bottom: 17px;
+}
+
+.icon {
+  font-size: 33px;
+  margin-bottom: 25px;
+}
+
+.link {
+  line-height: 1;
+  font-size: 16px;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #1d1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  margin-left: 10px;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #4a4f54;
+  letter-spacing: 0.5px;
+  margin-bottom: 22px;
+}
+
+.card:hover .link {
+  color: #005a2b;
+}
+
+.card:hover {
+  color: #005a2b;
+}

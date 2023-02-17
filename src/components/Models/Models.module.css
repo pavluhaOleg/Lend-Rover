@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  padding: 80px 70px 40px;
+}
+
+.modulesBlock {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}

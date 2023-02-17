@@ -1,0 +1,29 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+}
+
+.wrappAnimateBlock {
+  background-color: #fff;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0;
+  text-align: center;
+  color: green;
+  animation: show-cars 1s forwards;
+}
+
+@keyframes show-cars {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 100vh;
+  }
+}

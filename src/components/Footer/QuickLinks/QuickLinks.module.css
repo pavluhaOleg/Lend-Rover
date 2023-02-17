@@ -1,0 +1,14 @@
+.block {
+  width: 25%;
+  padding: 46px 20px 22px;
+}
+
+.title {
+  font-size: 9.5px;
+  line-height: 1;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #fff;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}

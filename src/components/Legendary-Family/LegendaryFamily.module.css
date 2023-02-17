@@ -1,0 +1,14 @@
+.wrapper{
+    width: 100%;
+    padding: 80px 86px 40px;
+    background: #e9ecec;
+}
+li{
+    list-style: none;
+}
+.blockCard{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 80px;
+}

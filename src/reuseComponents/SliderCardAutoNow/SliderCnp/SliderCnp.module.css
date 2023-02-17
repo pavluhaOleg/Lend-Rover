@@ -1,0 +1,31 @@
+.blockCnp{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.cnp{
+  width: 25px;
+  font-family: arial, sans-serif;
+  height: 25px;
+  font-size: 11px;
+  color: #000;
+  margin-right: 3px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+.active{
+  background-color: #29569c;
+  width: 25px;
+  font-family: arial, sans-serif;
+  height: 25px;
+  font-size: 11px;
+  color: #fff;
+  margin-right: 3px;
+  line-height: 25px;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.wrapper {
+  width: 100%;
+  height: 173px;
+  background-color: #e9ecec;
+  color: #4a4f54;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+}

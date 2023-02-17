@@ -1,0 +1,13 @@
+.block_Img {
+  width: 98.9vw;
+  height: 100vh;
+  display: block;
+  position: relative
+}
+
+.block_Img img {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}

@@ -1,0 +1,18 @@
+.blockCard{
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+ margin-top: 35px;
+}
+.resultsFound{
+ position: absolute;
+ top: 8px;
+ left: 205px;
+ padding: 0 7.5px;
+ font-family: arial, sans-serif;
+ font-size: 18px;
+ font-weight: 700;
+ letter-spacing: 1px;
+ color: #2c1b1b;
+ text-transform: uppercase;
+}

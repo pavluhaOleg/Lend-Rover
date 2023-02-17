@@ -1,0 +1,77 @@
+.cnp {
+  box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
+  position: fixed;
+  top: 93px;
+  right: 21px;
+
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #005a2b;
+  transition: all .2s;
+  z-index: 12;
+  cursor: pointer;
+}
+
+.cnp_cansel {
+  box-shadow: 0 5px 20px rgb(0 0 0 / 25%);
+  position: fixed;
+  top: 93px;
+  right: 21px;
+
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #005a2b;
+  transition: all .2s;
+  z-index: 11;
+  cursor: pointer;
+}
+
+.cnp:hover {
+  color: #333;
+  background-color: #333;
+  box-shadow: none;
+  justify-content: space-around;
+}
+
+.elem {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #fff;
+  transition: all .3s;
+}
+
+.elem_cansel_1 {
+  width: 25px;
+  height: 2px;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  position: absolute;
+  top: 27px;
+  transition: all .3s;
+}
+
+.elem_cansel_2 {
+  width: 25px;
+  height: 2px;
+  border-radius: 5px;
+  transform: rotate(-45deg);
+  background-color: #fff;
+  position: absolute;
+  bottom: 26px;
+  transition: all .3s;
+}
+
+.elem:not(:first-child) {
+  margin-left: 7px;
+}

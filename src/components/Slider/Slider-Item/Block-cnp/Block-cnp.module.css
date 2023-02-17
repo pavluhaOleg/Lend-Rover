@@ -1,0 +1,52 @@
+.block {
+  max-width: 397px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 19px 25px 28px;
+  box-sizing: border-box;
+  top: 31.7%;
+  left: 100px;
+  opacity: 1;
+  position: absolute;
+}
+
+.active {
+  opacity: 0;
+}
+
+.block h1 {
+  font-size: 38px;
+  font-family: Helvetica, serif;
+  color: #0c121c;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.block p {
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #0c121c;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-top: 4px;
+  margin-bottom: 17px;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+}
+
+.active {
+  animation: ani 1.8s forwards;
+}
+
+@keyframes ani {
+  0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

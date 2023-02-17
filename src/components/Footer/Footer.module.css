@@ -1,0 +1,7 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 0 70px;
+  background: #4a4f54;
+  display: flex;
+}

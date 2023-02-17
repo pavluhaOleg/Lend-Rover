@@ -1,0 +1,6 @@
+.continer{
+  width: 100%;
+  padding: 0 70px;
+  display: flex;
+  flex-wrap: wrap;
+}

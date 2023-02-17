@@ -1,0 +1,10 @@
+.block {
+  padding: 23px;
+  cursor: pointer;
+  font-size: 21px;
+  margin-right: 100px;
+}
+
+.block:hover {
+  background-color: #e9ecec;
+}

@@ -1,0 +1,23 @@
+.wrapper{
+  width: 100%;
+  height: auto;
+  color: blueviolet;
+  color: blueviolet;
+  background-color: #f8f9f9;
+}
+.title{
+  font-family: "Land Rover",Helvetica,Arial,"Microsoft JhengHei",sans-serif;
+  color: #0c121c;
+  font-size: 33px;
+  letter-spacing: 1.9px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 100px 0;
+}
+.content{
+  width: 100%;
+  background: #eaeaea;
+  display: flex;
+  position: relative;
+}

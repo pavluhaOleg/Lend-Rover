@@ -1,0 +1,44 @@
+.navBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 23px 11px 149px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #f8f9f9;
+  color: #4a4f54;
+  box-shadow: 1px -10px 20px 0px #000;
+  animation: show-fixed-block .3s; 
+}
+.active{
+  top: 72px
+}
+.navMenu {
+  display: flex;
+  align-items: center;
+}
+
+.cnpHide {
+  padding: 7px;
+  cursor: pointer;
+  transition: all .3s;
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 1px;
+  font-weight: 100;
+  font-size: 19px;
+  color: #000;
+}
+.cnpHide:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@keyframes show-fixed-block {
+  0%{
+    top: 0;
+  }
+  100%{
+    top: 72px;
+  }
+}

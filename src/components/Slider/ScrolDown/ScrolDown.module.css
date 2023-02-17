@@ -1,0 +1,20 @@
+.cnpScroll {
+  width: 50px;
+  height: 52px;
+  position: absolute;
+  background: #0c121c;
+  color: #fff;
+  left: 50%;
+  margin-left: -25px;
+  bottom: 0;
+  font-size: 30px;
+  text-align: center;
+  line-height: 61px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.cnpScroll:hover {
+  color: #0c121c;
+  background-color: #fff;
+}

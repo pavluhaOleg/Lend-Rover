@@ -1,0 +1,176 @@
+.blockImg {
+  width: 100%;
+  height: auto;
+}
+
+.blockImg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.blockAnimate{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.noneBlock{
+  display: none;
+}
+
+.blockInformationImg {
+  width: 100%;
+  height: 124px;
+  display: flex;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.elemInformation {
+  width: 25%;
+}
+.active {
+  height: 100vh;
+}
+
+.none {
+  height: 0;
+}
+
+.title {
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: .8px;
+  color: #0c121c;
+  font-family: lr_ot4, arial, helvetica, sans-serif;
+  background-color: #e8e4e4;
+
+  border-bottom: 1px solid #e8eced;
+  padding: 14px 0 13px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* конфигуратор */
+
+.configCnp {
+  font-size: 18px;
+  padding: 12px 21px 14px;
+  margin-bottom: 27px;
+  background-color: #0c121c;
+  color: #fff;
+  box-shadow: 0 0 0 1px #0c121c inset;
+  transition: all .3s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.configCnp:hover {
+  background-color: #fff;
+  color: #090e17;
+}
+
+.text {
+  margin-left: 15px;
+  font-family: lr_ot4, arial, helvetica, sans-serif;
+  display: inline-block;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+/* блок blockКeview */
+
+.blockWindow {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.titleImg {
+  font-family: helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 24px;
+  color: #0c121c;
+  text-transform: uppercase;
+  letter-spacing: .48px;
+}
+
+.textImg {
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 1;
+  color: #4a4f54;
+  margin-top: 18px;
+  font-size: 14px;
+  margin-top: 9px;
+  margin-bottom: 29px;
+}
+
+.blockКeview {
+  min-width: 300px;
+  width: 27%;
+  height: 100vh;
+  padding: 30px 30px 24px 30px;
+  text-align: left;
+  box-shadow: inset 1px 5px 4px 0 rgb(1 1 1 / 10%);
+}
+
+.linkKeviw {
+  line-height: 1;
+  font-size: 10px;
+  font-family: "lr_ot4", "arial", "helvetica", sans-serif;
+  color: #1d1a1a;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 27px;
+}
+
+.iconArrow {
+  margin-right: 15px;
+}
+
+.border {
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #ebebeb;
+  margin-top: 13px;
+}
+
+.marginTop {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #1d1a1a;
+}
+
+/* textFootnote */
+.footnoteImg {
+  width: 100%;
+  padding: 35px 20px 10px;
+  text-align: left;
+}
+
+.textFootnote {
+  font-size: 10.8px;
+  font-weight: 400;
+  line-height: 16px;
+  font-family: Arial Unicode, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  color: #4a4f54;
+  margin-bottom: 12px;
+}
+
+/* инфа под фото */
+.elemInformation {
+  font-size: 11px;
+  font-family: Arial Unicode, Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3px;
+  color: #4a4f54;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ } 

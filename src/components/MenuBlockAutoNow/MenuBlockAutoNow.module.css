@@ -1,0 +1,15 @@
+.blockMenu{
+  position: absolute;
+  width: 555px;
+  height: auto;
+  z-index: 31;
+  left: 0;
+  top: 116px;
+  background-color: #fff;
+  box-shadow: 12px 12px 9px -8px #cbcbcb;
+  display: block;
+}
+
+.hide{
+  display: none;
+}

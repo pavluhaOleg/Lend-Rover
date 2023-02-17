@@ -1,0 +1,35 @@
+.cnp {
+  width: 9em;
+  display: flex;
+  align-items: center;
+  font-size: 27px;
+  padding: 12px 15px 8px;
+  background-color: #0c121c;
+  color: #fff;
+  box-shadow: 0 0 0 1px #0c121c inset;
+  transition: all .5s;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.cnp span {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, serif;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: 3px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  line-height: 1px;
+  transition: all .5s;
+}
+
+.cnp:hover {
+  background-color: #fff;
+  color: #090e17;
+}
+
+.cnp:hover span {
+  color: #0c121c;
+}

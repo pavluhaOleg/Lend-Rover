@@ -1,0 +1,46 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.blockImg {
+  width: 110px;
+  height: 59px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.blockImg img {
+  width: 110px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+
+.title {
+  width: 206px;
+  height: 59px;
+  display: block;
+  font-family: helvetica, sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: .04em;
+  color: #4a4f54;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-bottom: 1px solid #eceded;
+  text-align: left;
+  padding-top: 21px;
+  padding-left: 12px;
+}
+
+.wrapper:hover {
+  background-color: #e8e4e4;
+}
+
+.wrapper:hover .title {
+  color: black;
+}
