@@ -5,13 +5,14 @@ import ms from './MenuSubtitle.module.css'
 interface ShowSubtitleType {
   showSubtitle: boolean,
   setHideBlockMenu: (h: boolean) => void,
-  hideBlockMenu: boolean
+  hideBlockMenu: boolean,
+  visible: boolean
 }
 
-const MenuSubtitle = ({ showSubtitle, setHideBlockMenu, hideBlockMenu }: ShowSubtitleType) => {
+const MenuSubtitle = ({ showSubtitle, setHideBlockMenu, hideBlockMenu, visible }: ShowSubtitleType) => {
 
   return (
-    <>
+    
       <div className={showSubtitle ? `${ms.wrapper} ${ms.none}` : ms.wrapper}>
         <div className={ms.header}>
           <div className={ms.navigation}
@@ -23,9 +24,10 @@ const MenuSubtitle = ({ showSubtitle, setHideBlockMenu, hideBlockMenu }: ShowSub
 
           <div className={ms.text}>авто в наличии</div>
         </div>
-      </div>
-      <MenuBlockAutoNow hideBlockMenu={hideBlockMenu} setHideBlockMenu={setHideBlockMenu} />
-    </>
+      
+        <MenuBlockAutoNow hideBlockMenu={hideBlockMenu} setHideBlockMenu={setHideBlockMenu} />
+        </div>
+    
   )
 }
 

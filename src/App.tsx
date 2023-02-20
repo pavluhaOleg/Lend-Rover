@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import app from './App.module.css'
 
 import Header from './components/Header/Header'
@@ -19,8 +19,8 @@ const App = () => {
 
   return (
     <Context.Provider value={{ carsShow, setCarsShow }}>
-      <div className={app.wrapper}>
 
+      <div className={app.wrapper}>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />

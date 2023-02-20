@@ -163,8 +163,13 @@ export const sliderArr = [               // массив Слайдер
   { id: 1, img: img_1, title: 'Ноовый Renge Rover', text: 'непревзойдённая роскошь и совершенсво', anchor: 1 },
   { id: 2, img: img_2, title: 'Lend Rover Defender', text: 'способен на многое. теперь доступен в вариации defender 130', anchor: 2 },
   { id: 3, img: img_3, title: 'Lend Rover Defender', text: 'способен на многое. теперь доступен в вариации defender 130', anchor: 3 },
-
 ];
+
+export const CarVav = [     // массив навигация
+  { id: 1, text: 'автомобили', link: 'cars-model' },
+  { id: 2, text: 'электрический', link: 'electrics' },
+  { id: 3, text: 'подразделение разработки ексклюзивных автомобилей', link: 'development' },
+]
 
 // массив Menu - Cars
 export const arrMenuCarContent = [

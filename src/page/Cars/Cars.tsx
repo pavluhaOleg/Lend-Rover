@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import DynamicNavigationBlock from '../../components/CarNavBlok/DynamicNavigationBlock'
 import c from './Cars.module.css'
 import { Context } from '../../context/Context'

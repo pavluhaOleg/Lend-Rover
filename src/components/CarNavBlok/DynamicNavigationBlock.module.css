@@ -10,10 +10,14 @@
   background-color: #f8f9f9;
   color: #4a4f54;
   box-shadow: 1px -10px 20px 0px #000;
-  animation: show-fixed-block .3s; 
 }
 .active{
-  top: 72px
+  top: 72px;
+  transition: top 0.4s ease-out;
+}
+.top0{
+  top: 0;
+  transition: top 0.4s ease-out;
 }
 .navMenu {
   display: flex;
@@ -32,13 +36,4 @@
 }
 .cnpHide:hover {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-@keyframes show-fixed-block {
-  0%{
-    top: 0;
-  }
-  100%{
-    top: 72px;
-  }
 }
