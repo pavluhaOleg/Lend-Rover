@@ -26,11 +26,13 @@ type CardAutoNowType = {
 const BlockCard = () => {
   const [card] = useState<CardAutoNowType[]>(CardAutoNow)
 
+  const filterArr = card.filter((elem: { fuel: string }) => elem.fuel === 'бензин')
+
   return (
     <>
       <p className={blca.resultsFound}>найдено результатов: </p>
       <ul className={blca.blockCard}>
-        {card.map(elem =>
+        {filterArr.map(elem =>
           <ItemCardAutoNow key={elem.id} {...elem} />
         )}
       </ul>

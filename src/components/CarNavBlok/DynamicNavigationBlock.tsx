@@ -39,8 +39,8 @@ const DynamicNavigationBlock: FC<ICarsProps> = ({ setCarsShow }) => {
     return (() => {
       window.removeEventListener("scroll", handleScroll);
     })
-
-  }, [position])
+  }, [position, visible, setVisible])
+  
 
 
   return (                 // навигация
