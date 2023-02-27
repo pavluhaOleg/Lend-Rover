@@ -3,36 +3,18 @@ import { CardAutoNow } from '../../../Infa-arr/InfaArr'
 import ItemCardAutoNow from '../../../reuseComponents/ItemCardAutoNow/ItemCardAutoNow'
 import blca from './BlockCard.module.css'
 
-type CardAutoNowType = {
-  id: number,
-  title: string,
-  volume: string,
-  pack: string,
-  fuel: string,
-  release: string,
-  kpp: string,
-  price: string,
-  availability: number,
-  img?: string,
-  img_1?: string | undefined
-  img_2?: string | undefined
-  img_3?: string | undefined
-  img_4?: string | undefined
-
+type FilterArrTypeProps = {
+  model: any
 }
 
 
-
-const BlockCard = () => {
-  const [card] = useState<CardAutoNowType[]>(CardAutoNow)
-
-  const filterArr = card.filter((elem: { fuel: string }) => elem.fuel === 'бензин')
+const BlockCard = ({ model }: FilterArrTypeProps) => {
 
   return (
     <>
       <p className={blca.resultsFound}>найдено результатов: </p>
       <ul className={blca.blockCard}>
-        {filterArr.map(elem =>
+        {model.map((elem: any) =>
           <ItemCardAutoNow key={elem.id} {...elem} />
         )}
       </ul>

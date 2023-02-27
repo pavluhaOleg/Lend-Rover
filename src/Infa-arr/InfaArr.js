@@ -315,7 +315,8 @@ export const CardAutoNow = [
     title: 'Land Rover Range Rover Velar',
     volume: '2',
     pack: 'no pack',
-    fuel: 'бензин', release: '2023',
+    fuel: 'бензин',
+    release: '2023',
     kpp: '8-ступенчатая автомотическая КПП',
     price: '3144240',
     availability: 12
