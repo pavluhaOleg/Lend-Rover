@@ -12,7 +12,7 @@ const BlockCard = ({ model }: FilterArrTypeProps) => {
 
   return (
     <>
-      <p className={blca.resultsFound}>найдено результатов: </p>
+      <p className={blca.resultsFound}>найдено результатов: {model.length}</p>
       <ul className={blca.blockCard}>
         {model.map((elem: any) =>
           <ItemCardAutoNow key={elem.id} {...elem} />
