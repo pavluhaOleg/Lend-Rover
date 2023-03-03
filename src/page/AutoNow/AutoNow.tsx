@@ -36,32 +36,67 @@ const AutoNow = () => {
   // РАБОТА С МОДЕЛЯМИ
 
   useEffect(() => {
-    let model: CardAutoNowType[] = []   // назначение переменной MODEL
+    Checkbox(agreeToAllTerms, elemModel, arrCard)
+
+  }, [arrCard, agreeToAllTerms, elemModel])
+
+  function Checkbox(agreeToAllTerms: boolean, elemModel: string, arrCard: any) {
 
     if (agreeToAllTerms && elemModel === 'Defender') {   // выбор моделей
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
-    }
-    if (agreeToAllTerms && elemModel === 'Range Rover Sport') {
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
-    }
-    if (agreeToAllTerms && elemModel === 'Range Rover Velar') {
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
-    }
-    if (agreeToAllTerms && elemModel === 'Range Rover') {
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
-    }
-    if (agreeToAllTerms && elemModel === 'Range Rover Evoque') {
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
-    }
-    if (agreeToAllTerms && elemModel === 'Discovery Sport') {
-      model = arrCard.filter((elem: { model: string }) => elem.model === elemModel)
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
     }
 
-    // else if (!agreeToAllTerms) {
-    //   model = arrCard.filter((elem: { model: string }) => elem.model !== elemModel)
-    // }
-    setArrResult([...arrResult, ...model])
-  }, [arrCard, agreeToAllTerms, elemModel])
+    else if (!agreeToAllTerms && elemModel === 'Defender') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+    if (agreeToAllTerms && elemModel === 'Range Rover Sport') {
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
+    }
+
+    else if (!agreeToAllTerms && elemModel === 'Range Rover Sport') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+    if (agreeToAllTerms && elemModel === 'Range Rover Velar') {
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
+    }
+
+    else if (!agreeToAllTerms && elemModel === 'Range Rover Velar') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+    if (agreeToAllTerms && elemModel === 'Range Rover') {
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
+    }
+
+    else if (!agreeToAllTerms && elemModel === 'Range Rover') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+    if (agreeToAllTerms && elemModel === 'Range Rover Evoque') {
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
+    }
+
+    else if (!agreeToAllTerms && elemModel === 'Range Rover Evoque') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+
+
+    if (agreeToAllTerms && elemModel === 'Discovery Sport') {
+      return setArrResult([...arrResult, ...arrCard.filter((elem: { model: string }) => elem.model === elemModel)])
+    }
+
+
+
+    else if (!agreeToAllTerms && elemModel === 'Discovery Sport') {
+      return setArrResult([...arrResult.filter((elem: { model: string }) => elem.model !== elemModel)])
+    }
+
+    setArrResult([...arrResult])
+
+  }
 
   const Choice = (elem: string) => {    // выбор моделей по клику
     setElemModel(elem)

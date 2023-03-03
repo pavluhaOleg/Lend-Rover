@@ -3,7 +3,7 @@ import { CardAutoNow } from '../../../../Infa-arr/InfaArr';
 import mchb from './ModelCheckbox.module.css'
 
 type ModelAutoNowType = {
-  id: any;
+  id: number;
   model: string
 }
 
